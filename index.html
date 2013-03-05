@@ -2,7 +2,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Force-Directed Layout</title>
+    <meta charset="utf-8">
+    <title>Commits in D3.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="d3 github commits">
+    <meta name="author" content="Ravi Khadiwala">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/mod.css" rel="stylesheet">
     <script type="text/javascript" src="d3/d3.min.js"></script>
     <script type="text/javascript" src="d3/d3.geom.min.js"></script>
     <script type="text/javascript" src="d3/d3.layout.min.js"></script>
@@ -10,6 +25,25 @@
     <link type="text/css" rel="stylesheet" href="force.css"/>
   </head>
   <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="home.html">Ravi Khadiwala</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
     <div id="chart"></div>
     <script type="text/javascript" src="commit-graph.js"></script>
   </body>

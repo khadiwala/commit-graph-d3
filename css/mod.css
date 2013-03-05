@@ -1,0 +1,28 @@
+.imgwrap {
+  background-image: url("../img/Edison3.png");
+  background-repeat: no-repeat;
+  background-position:900px; 
+}
+
+.colorblue {
+  background-color: #999999
+}
+
+.grey {
+  background-color: #999999
+}
+
+.navcolor {
+  background-color: #1abc9c
+}
+
+.navfont {
+  color: #34495e
+}
+
+.mybtn {
+  background-color: #1abc9c
+}
+twss { 
+  color: #FF0000
+}
